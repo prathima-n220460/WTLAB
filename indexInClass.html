@@ -3,9 +3,128 @@
     <head>
         <title>DILCHALCHITRAMS</title>
         <link rel="icon" href="c:\Users\Admin\Downloads\logo.webp">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="C:\Users\Admin\Desktop\WTLAB\lab2_dilchalchitras_css\style.csss">
          <meta name="viewport" content="width=device-width,initial-scale=1.0" >
         <style>
+            /*safari ,edge,chrome*/
+::-webkit-scrollbar{
+    display:none;
+}
+/*firefox*/
+*{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+h3,h2{
+    color:greenyellow;
+}
+h1{
+    color:green;
+}
+body{
+    background-color:black;
+    color:white;
+    margin:0;
+    padding-top:10px
+}
+footer a{
+        margin-right:50px;
+
+}
+
+.feedback{
+    border:2px solid greenyellow;
+    padding:10px;
+    width:500px;
+}
+
+.button{
+    width:100px;
+    height:40px;
+    background-color:greenyellow;
+    color:black;
+}
+
+
+nav a:hover{
+    color:black;
+    border:2px solid green;
+    text-align: center;
+    background-color:green;
+}
+nav a{
+    border:2px solid greenyellow;
+    text-align:center;
+    color:black;
+    padding:3px;
+    border-width: 50;
+    background-color:greenyellow;
+    margin-right:30px;
+    text-decoration:none;
+    
+            
+    
+
+}
+.border{
+    padding:15px 30px;
+    background:#111;
+    color:white;
+    border:2px solid cyan;
+    box-shadow:0 0 10px cyan;
+}
+ .logo div{
+    display:flex;
+    align-items: center;
+    position:sticky;
+    top:0;
+    margin-bottom:10px;
+    background-color: black;
+                
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top:0;
+    justify-content: space-between;
+    margin-bottom:10px;
+    background-color: black;
+ }
+
+  div image{
+            display:inline-block; }
+.scroll{
+        display:flex;
+        overflow-x:auto;
+  }
+ .vscroll{
+     display:flex;
+    overflow-y:auto;}
+ div video{
+         display:inline-flexbox;
+        border:2px solid greenyellow;
+        width:200px;
+        height:300px;
+        margin-right:10px;}
+.video{
+     width:70%;
+
+ }
+.border{
+border:2px solid greenyellow;
+ margin-right: 10px;
+ }
+@keyframes border{
+    0%{border-color: greenyellow;}
+    20%{border-color: rgb(255, 0, 128);}
+    49%{border-color: red;}
+    70%{border-color: orange;}
+    100%{border-color: blue;}
+}
+.borderanimi {
+animation: border 5s infinite;
+ }
             .buttom
             {
                 width:100%;
@@ -25,9 +144,54 @@
                 width:400px;
             
             }
+            table{
+                border:2px solid greenyellow;
+                padding:5px;
+                margin:3px;
+               
+            }
+            th{
+                 color:blue;
+                 text-align:left;
+                 padding:5px;
+                 
+            }
+            td{
+                 padding:7px; 
+            
+            }
+            table button
+            {
+                padding:6px 12px;
+                border:none;
+                border-radius:4px;
+                cursor:pointer;
+                animation: border 5s infinite;
+            }
             
         </style>
+        <script>
+            const movieName="Hi Nanna";
+            let rating=4.6;
+            var duration="3hrs";
+            console.log(movieName);
+            console.log(rating);
+            console.log(duration)
+           /* movieName="Hello Guru Prema kosame" */
+            var duration="2 hrs"
+            rating=10
+            console.log(movieName);
+            console.log(rating);
+            console.log(duration)
+            let name="HELLO"
+            let age=12
+            let marks=19.5
+            let gender
+            let city=null
 
+
+
+        </script>
 
     </head>
     <body >
@@ -151,6 +315,65 @@
 
 
        </center>
+       <h3>All details of subscription plan</h3>
+
+        <table>
+            <tr>
+                <th>Featurs</th>
+                <th>Basic Plan</th>
+                <th>Standard Plan</th>
+                <th>Premium Plan</th>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>$5</td>
+                <td>$10</td>
+                <td>$20</td>
+            </tr>
+            <tr>
+                <td>Duration</td>
+                <td>1 Month</td>
+                <td>3 Months</td>
+                <td>12 Months</td>
+            </tr>
+            <tr>
+                <td>Hd Streaming</td>
+                <td>No</td>
+                <td>No</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Multiple Devices</td>
+                <td>1 device</td>
+                <td>2 devices</td>
+                <td>3 devices</td>
+            </tr>
+            <tr>
+                <td>Offline Download</td>
+                <td>Not Available</td>
+                <td>Available</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>Ads</td>
+                <td>No</td>
+                <td>No</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Access to All Content</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>Get Plan</button></td>
+                <td><button>Get Plan</button></td>
+                <td><button>Get Plan</button></td>
+            </tr>
+
+        </table>
 
        <h2 >all rights are reserved</h2>
        <center>
